@@ -13,6 +13,7 @@
 		FC37BBF71FBEE3DB00C57DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC37BBF61FBEE3DB00C57DE0 /* Assets.xcassets */; };
 		FC37BBFA1FBEE3DB00C57DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC37BBF81FBEE3DB00C57DE0 /* LaunchScreen.storyboard */; };
 		FC37BBFD1FBEE3DB00C57DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37BBFC1FBEE3DB00C57DE0 /* main.m */; };
+		FC76FA7D1FC4659F00B10DAF /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76FA7C1FC4659F00B10DAF /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FC37BBF91FBEE3DB00C57DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC37BBFB1FBEE3DB00C57DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC37BBFC1FBEE3DB00C57DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC76FA7B1FC4659F00B10DAF /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FC76FA7C1FC4659F00B10DAF /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FC37BBF81FBEE3DB00C57DE0 /* LaunchScreen.storyboard */,
 				FC37BBFB1FBEE3DB00C57DE0 /* Info.plist */,
 				FC37BBFC1FBEE3DB00C57DE0 /* main.m */,
+				FC76FA7B1FC4659F00B10DAF /* MyViewController.h */,
+				FC76FA7C1FC4659F00B10DAF /* MyViewController.m */,
 			);
 			path = RunLoopDemo;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				FC37BBF21FBEE3DB00C57DE0 /* ViewController.m in Sources */,
 				FC37BBFD1FBEE3DB00C57DE0 /* main.m in Sources */,
+				FC76FA7D1FC4659F00B10DAF /* MyViewController.m in Sources */,
 				FC37BBEF1FBEE3DB00C57DE0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
